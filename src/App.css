@@ -1,0 +1,18 @@
+.dropdown-menu.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  transition: 500ms ease;
+  z-index: 1;
+}
+.dropdown-menu.inactive {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-100%);
+  transition: 500ms ease;
+  z-index: 1;
+}
+
+:root {
+  font-family: IBM Plex Sans, sans-serif;
+}
